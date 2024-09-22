@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+}
+
+#app {
+    text-align: center;
+}
+
+.vid-container {
+    margin-bottom: 20px;
+}
+
+.player-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sound-picker button,
+.time-select button,
+#play-pause {
+    margin: 5px;
+    padding: 10px 20px;
+    background: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sound-picker button:hover,
+.time-select button:hover,
+#play-pause:hover {
+    background: #004d40;
+}
+
+.time-display {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
